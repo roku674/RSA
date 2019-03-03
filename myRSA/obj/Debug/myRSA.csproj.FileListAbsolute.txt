@@ -1,0 +1,9 @@
+c:\users\zander\documents\visual studio 2015\Projects\myRSA\myRSA\bin\Debug\myRSA.exe.config
+C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\obj\Debug\myRSA.csprojResolveAssemblyReference.cache
+C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\obj\Debug\myRSA.Form1.resources
+C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\obj\Debug\myRSA.Properties.Resources.resources
+C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\obj\Debug\myRSA.csproj.GenerateResource.Cache
+C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\bin\Debug\myRSA.exe
+C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\bin\Debug\myRSA.pdb
+C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\obj\Debug\myRSA.exe
+C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\obj\Debug\myRSA.pdb
