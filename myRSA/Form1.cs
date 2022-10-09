@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+﻿using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 
@@ -18,8 +12,8 @@ Brave is a safe browser that doesn't track your data unless you want it to be tr
      **/
     public partial class Form1 : Form
     {
-        String publicKey, privateKey; //strings to hold the public and private keys'
-        UnicodeEncoding encoder = new UnicodeEncoding();
+        private string publicKey, privateKey; //strings to hold the public and private keys'
+        private UnicodeEncoding encoder = new UnicodeEncoding();
 
         public Form1()
         {
@@ -29,13 +23,13 @@ Brave is a safe browser that doesn't track your data unless you want it to be tr
             publicKey = myRSA.ToXmlString(false);
         }
 
-        private void btnClear_Click(object sender, EventArgs e)
+        private void btnClear_Click(object sender, System.EventArgs e)
         {
             txtPlainText.Text = "";
             txtPlainText.Refresh();
         }
 
-        private void btnEncrypt_Click(object sender, EventArgs e)
+        private void btnEncrypt_Click(object sender, System.EventArgs e)
         {
             var myRSA = new RSACryptoServiceProvider();
             //Set up the cryptoServiceProvider with the proper key
@@ -62,7 +56,7 @@ Brave is a safe browser that doesn't track your data unless you want it to be tr
             txtCyperText.Text = sb.ToString();
         }
 
-        private void btnDecrypt_Click(object sender, EventArgs e)
+        private void btnDecrypt_Click(object sender, System.EventArgs e)
         {
             var myRSA = new RSACryptoServiceProvider();
             //Split the data into an array
@@ -70,7 +64,7 @@ Brave is a safe browser that doesn't track your data unless you want it to be tr
 
             //Convert to bytes
             byte[] dataByte = new byte[dataArray.Length];
-            for (int i = 0; i < dataArray.Length; i++) dataByte[i] = Convert.ToByte(dataArray[i]);
+            for (int i = 0; i < dataArray.Length; i++) dataByte[i] = System.Convert.ToByte(dataArray[i]);
 
             //Decrypt the byte array
             myRSA.FromXmlString(privateKey);
@@ -80,7 +74,13 @@ Brave is a safe browser that doesn't track your data unless you want it to be tr
             txtPlainText.Text = encoder.GetString(decryptedBytes);
         }
 
-        private void btnClear2_Click(object sender, EventArgs e)
+        private void generate_file_click(object sender, System.EventArgs e)
+        {
+            System.IO.File.WriteAllText(System.IO.Directory.GetCurrentDirectory() + "/encrypted.txt", txtCyperText.Text);
+            System.IO.File.WriteAllText(System.IO.Directory.GetCurrentDirectory() + "/key.txt", privateKey);
+        }
+
+        private void btnClear2_Click(object sender, System.EventArgs e)
         {
             txtCyperText.Text = "";
             txtCyperText.Refresh();

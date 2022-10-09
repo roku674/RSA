@@ -1,0 +1,11 @@
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\bin\Release\myRSA.exe.config
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\bin\Release\myRSA.exe
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\bin\Release\myRSA.pdb
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Release\myRSA.csproj.AssemblyReference.cache
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Release\myRSA.csproj.SuggestedBindingRedirects.cache
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Release\myRSA.Form1.resources
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Release\myRSA.Properties.Resources.resources
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Release\myRSA.csproj.GenerateResource.cache
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Release\myRSA.csproj.CoreCompileInputs.cache
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Release\myRSA.exe
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Release\myRSA.pdb

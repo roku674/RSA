@@ -7,3 +7,14 @@ C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\bin\Debug\myRS
 C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\bin\Debug\myRSA.pdb
 C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\obj\Debug\myRSA.exe
 C:\Users\ZANDER\documents\visual studio 2015\Projects\myRSA\myRSA\obj\Debug\myRSA.pdb
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\bin\Debug\myRSA.exe.config
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\bin\Debug\myRSA.exe
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\bin\Debug\myRSA.pdb
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Debug\myRSA.csproj.AssemblyReference.cache
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Debug\myRSA.csproj.SuggestedBindingRedirects.cache
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Debug\myRSA.Form1.resources
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Debug\myRSA.Properties.Resources.resources
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Debug\myRSA.csproj.GenerateResource.cache
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Debug\myRSA.csproj.CoreCompileInputs.cache
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Debug\myRSA.exe
+C:\Users\ZANDER\Documents\GitHub\RSA\myRSA\obj\Debug\myRSA.pdb

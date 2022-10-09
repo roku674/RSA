@@ -39,6 +39,7 @@ Brave is a safe browser that doesn't track your data unless you want it to be tr
             this.btnDecrypt = new System.Windows.Forms.Button();
             this.btnClear2 = new System.Windows.Forms.Button();
             this.txtCyperText = new System.Windows.Forms.TextBox();
+            this.generate_file = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPlainText
@@ -97,11 +98,22 @@ Brave is a safe browser that doesn't track your data unless you want it to be tr
             this.txtCyperText.Size = new System.Drawing.Size(312, 271);
             this.txtCyperText.TabIndex = 5;
             // 
+            // generate_file
+            // 
+            this.generate_file.Location = new System.Drawing.Point(449, 23);
+            this.generate_file.Name = "generate_file";
+            this.generate_file.Size = new System.Drawing.Size(175, 23);
+            this.generate_file.TabIndex = 6;
+            this.generate_file.Text = "Generate File";
+            this.generate_file.UseVisualStyleBackColor = true;
+            this.generate_file.Click += new System.EventHandler(this.generate_file_click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(715, 376);
+            this.Controls.Add(this.generate_file);
             this.Controls.Add(this.txtCyperText);
             this.Controls.Add(this.btnClear2);
             this.Controls.Add(this.btnDecrypt);
@@ -123,6 +135,7 @@ Brave is a safe browser that doesn't track your data unless you want it to be tr
         private System.Windows.Forms.Button btnDecrypt;
         private System.Windows.Forms.Button btnClear2;
         private System.Windows.Forms.TextBox txtCyperText;
+        private System.Windows.Forms.Button generate_file;
     }
 }
 
